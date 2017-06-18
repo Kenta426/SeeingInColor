@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<link rel="stylesheet" href="style.css" type="text/css" property="stylesheet">
+<style>
+/*svg {border: solid black 1px}*/
+</style>
+<body bgcolor="#1e1e28">
+
+  <div class = 'header'></div>
+  <h1>Seeing in Color</h1>
+  <div id="leftside">
+    <p id="overall_descr">This interface shows the color distribution of movie posters by metrics including genre, year, and primary/supplementary colors. The primary colors are the most prominent shades and hues on a poster, while the supplementary colors can be seen as complementary to the primary colors.</p>
+    <p id="firstoverall_descr"> An analysis of movie poster color trends over the ages. The top 250 movies are collected each year from 1967 to 2016.</p>
+    <p id="graph_appear">The bigger the circle/bar, the more popular the color is.</p>
+    <p id="colorthief">Color Thief was used to extract the dominant/representative color palette from the movie poster.</p>
+    <p id="credits"> Data from Letterboxd and Color Thief.</p>
+  </div>
+  <div id = "dominant_movie_poster"></div>
+  <h3 id="dominantlabel"> Primary Colors </h3>
+  <h3 id="sublabel">Supplementary Colors</h3>
+  <div id = "sub_movie_poster"></div>
+
+
+
+  <div class = 'content'></div>
+
+  <div id = 'year_select'></div>
+  <p id="year_descr"> 2. Choose a movie year. </p>
+  <div id = 'graph_select'></div>
+   <p id="graph_descr"> 3. Choose a visualization type. </p>
+  <div id = 'genre_select'></div>
+  <p id="genre_descr"> 1. Choose a movie genre. </p>
+  <p id="heatmap_works"> 4. Click on a color/poster to show movies. </p>
+  <div id = 'genre_select2'></div>
+  <div id = "big_poster"></div>
+  <div id = "big_poster_title"></div>
+  <div id = "big_poster_info"></div>
+  <div class = 'sample'></div>
+  <!-- <div class = 'footer'></div> -->
+
+<script src ="code.js"></script>
+<script src ="poster_display.js"></script>
+<script src ="buttons.js"></script>
+<script src ="visualization.js"></script>
+<script src ="layout.js"></script>
+<script src ="slider.js"></script>
+</body>
+</html>

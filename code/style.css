@@ -1,0 +1,204 @@
+* {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+	color:white;
+	top:5px;
+	position:absolute;
+	left:30px;
+
+}
+
+
+#colorthief {
+	color:white;
+	width:230px;
+	position:absolute;
+	left:30px;
+	top:555px;
+}
+
+body {
+	margin: 0px;
+}
+
+#big_poster_info {
+	width:20px;
+	position:absolute;
+	color:white;
+	top:80px;
+	left:1220px;
+}
+
+#big_poster_title {
+	color:white;
+	position:absolute;
+	top:60px;
+	left:1220px;
+}
+
+#leftside {
+	background-color:#312d38;
+	width:270px;
+	height:835px;
+
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #3b3742 , #1e1e28); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #3b3742, #1e1e28); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #3b3742, #1e1e28); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #3b3742, #1e1e28); /* Standard syntax */
+}
+
+#graph_appear {
+	color:white;
+	width:230px;
+	position:absolute;
+	left:30px;
+	top:450px;
+}
+
+#credits {
+	font-size:10px;
+	color:white;
+	width:230px;
+	position:absolute;
+	left:30px;
+	top:785px;
+}
+
+#heatmap_works {
+	color:white;
+	width:300px;
+	position:absolute;
+	left:350px;
+	top:420px;
+}
+
+#heatmap_descr {
+	color:white;
+	width:250px;
+	position:absolute;
+	left:350px;
+	top:420px;
+}
+
+#genre_select2 {
+	position:absolute;
+	top:130px;
+	left:350px;
+}
+
+#firstoverall_descr {
+	color:white;
+	width:230px;
+	position:absolute;
+	left:30px;
+	top:90px;
+}
+
+#overall_descr {
+	color:white;
+	width:230px;
+	position:absolute;
+	left:30px;
+	top:235px;
+}
+
+#howposterworks {
+	color:white;
+	width:250px;
+	position:absolute;
+	left:50px;
+	top:775px;
+}
+
+#howgraphworks {
+	color:white;
+	width:250px;
+	position:absolute;
+	left:50px;
+	top:460px;
+}
+
+#genre_descr {
+	color:white;
+	width:250px;
+	position:absolute;
+	left:345px;
+	top:40px;
+}
+
+#year_descr {
+	color:white;
+	width:250px;
+	position:absolute;
+	left:350px;
+	top:200px;
+}
+
+#graph_descr {
+	color:white;
+	width:250px;
+	position:absolute;
+	left:350px;
+	top:320px;
+}
+
+#dominantlabel {
+	color:#fd1c1c;
+	position:absolute;
+	top:360px;
+	left:1010px;
+}
+
+#sublabel {
+	color:#fd1c1c;
+	position:absolute;
+	top:580px;
+	left:1010px;
+}
+
+#dominant_movie_poster{
+	position:absolute;
+	top:400px;
+	left:1010px;
+}
+
+#sub_movie_poster {
+	position:absolute;
+	top:625px;
+	left:1010px;
+}
+
+.content {
+	position:absolute;
+	top:460px;
+	left:50px;
+}
+
+#genre_select{
+	position:absolute;
+	top:100px;
+	left:350px;
+}
+
+#graph_select{
+	position:absolute;
+	top:370px;
+	left:350px;
+}
+
+
+#big_poster{
+	position:absolute;
+	top:60px;
+	left:1010px;
+	
+}
+
+#year_select {
+	position:absolute;
+	top:230px;
+	left:300px;
+}
